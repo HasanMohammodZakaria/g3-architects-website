@@ -123,6 +123,27 @@
     font-weight: 500;
 }
 
+/* features section related style */
+.features {
+    gap: 140px;
+}
+#features-section-title {
+    border-left: 5px solid #FF900E; 
+    padding-left: 20px;
+}
+.features-card {
+    padding: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.features-card .features-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /* some fact section related style */
 .facts-container {
     display: grid;
